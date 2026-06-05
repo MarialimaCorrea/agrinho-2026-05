@@ -1,14 +1,177 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="agrinho" content="width=device-width, initial-scale=1.0">
-    <title>agrinhot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Agroenergia e Biocombustíveis Sustentáveis</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-<h4>agrinho </h4>
-<h3"Agroenergia e biocombustíveis sustentávei" </h3>
+
+    <!-- Banner Principal -->
+    <section class="banner">
+        <div class="overlay">
+            <h1>Agroenergia e Biocombustíveis Sustentáveis</h1>
+            <p>
+                Energia limpa produzida a partir da agricultura para um futuro mais sustentável.
+            </p>
+        </div>
+    </section>
+
+    <!-- Conteúdo -->
+    <main class="container my-5">
+
+        <h2 class="text-center mb-5">Conheça mais sobre Agroenergia</h2>
+
+        <div class="row">
+
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="agroenergia.jpg" class="card-img-top" alt="Agroenergia">
+
+                    <div class="card-body">
+                        <h5 class="card-title">O que é Agroenergia?</h5>
+
+                        <p class="card-text">
+                            A agroenergia é a produção de energia a partir de recursos agrícolas e resíduos orgânicos.
+                        </p>
+
+                        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal1">
+                            Saiba mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="biocombustivel.jpg" class="card-img-top" alt="Biocombustíveis">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Biocombustíveis</h5>
+
+                        <p class="card-text">
+                            Alternativas renováveis que ajudam a reduzir a emissão de gases poluentes.
+                        </p>
+
+                        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal2">
+                            Saiba mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="sustentabilidade.jpg" class="card-img-top" alt="Sustentabilidade">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Benefícios para o Futuro</h5>
+
+                        <p class="card-text">
+                            Desenvolvimento econômico aliado à preservação ambiental.
+                        </p>
+
+                        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal3">
+                            Saiba mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="modal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">O que é Agroenergia?</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        Agroenergia é a energia obtida a partir da biomassa agrícola,
+                        como cana-de-açúcar, milho, soja e resíduos orgânicos.
+                    </p>
+
+                    <p>
+                        Ela contribui para a redução da dependência dos combustíveis fósseis
+                        e incentiva o uso de fontes renováveis.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="modal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Biocombustíveis</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        Os principais biocombustíveis utilizados no Brasil são o etanol,
+                        o biodiesel e o biogás.
+                    </p>
+
+                    <p>
+                        Eles são produzidos a partir de matérias-primas renováveis e
+                        emitem menos gases de efeito estufa.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="modal3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Benefícios para o Futuro</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        A agroenergia gera empregos, fortalece a economia rural,
+                        reduz impactos ambientais e ajuda no combate às mudanças climáticas.
+                    </p>
+
+                    <p>
+                        É uma alternativa importante para garantir energia limpa
+                        para as próximas gerações.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>

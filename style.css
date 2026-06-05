@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --verde-escuro: #1b4332;
+    --verde: #2d6a4f;
+    --verde-claro: #52b788;
+    --branco: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #f4f8f4;
+}
+
+/* Banner */
+
+.banner {
+    height: 100vh;
+
+    background-image:
+    linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.overlay {
+    padding-left: 8%;
+    max-width: 800px;
+}
+
+.overlay h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.overlay p {
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 15px;
+}
+
+/* Títulos */
+
+h2,
+h5 {
+    color: var(--verde);
+    font-weight: 700;
+}
+
+/* Cards */
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Botões */
+
+.btn-success {
+    background-color: var(--verde);
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: var(--verde-claro);
+}
+
+/* Rodapé */
+
+footer {
+    background-color: var(--verde-escuro);
+    color: white;
+}
